@@ -8,6 +8,47 @@ require Pod::Executable.execute_command('node', ['-p',
 platform :ios, min_ios_version_supported
 prepare_react_native_project!
 
+def patch_fmt_consteval
+  base_h = File.join(__dir__, 'Pods', 'fmt', 'include', 'fmt', 'base.h')
+  return unless File.exist?(base_h)
+
+  text = File.read(base_h)
+  patched = text.gsub('#  define FMT_USE_CONSTEVAL 1', '#  define FMT_USE_CONSTEVAL 0')
+  return if patched == text
+
+  File.chmod(File.stat(base_h).mode | 0o200, base_h)
+  File.write(base_h, patched)
+end
+
+def relax_pod_warning_errors(installer)
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['GCC_TREAT_WARNINGS_AS_ERRORS'] = 'NO'
+
+      ['OTHER_CFLAGS', 'OTHER_CPLUSPLUSFLAGS'].each do |key|
+        flags = config.build_settings[key]
+        next unless flags
+
+        values = flags.is_a?(String) ? flags.split(' ') : Array(flags)
+        filtered = values.reject { |flag| flag == '-Werror' }
+        config.build_settings[key] = flags.is_a?(String) ? filtered.join(' ') : filtered
+      end
+    end
+
+    next unless target.respond_to?(:source_build_phase) && target.source_build_phase
+
+    target.source_build_phase.files.each do |build_file|
+      flags = build_file.settings && build_file.settings['COMPILER_FLAGS']
+      next unless flags
+
+      filtered = flags.split(' ').reject { |flag| flag == '-Werror' }.join(' ')
+      if filtered != flags
+        build_file.settings['COMPILER_FLAGS'] = filtered
+      end
+    end
+  end
+end
+
 linkage = ENV['USE_FRAMEWORKS']
 if linkage != nil
   Pod::UI.puts "Configuring Pod with #{linkage}ally linked Frameworks".green
@@ -31,5 +72,8 @@ target 'AcrossBuffaloTrails' do
       :mac_catalyst_enabled => false,
       # :ccache_enabled => true
     )
+
+    patch_fmt_consteval
+    relax_pod_warning_errors(installer)
   end
 end
