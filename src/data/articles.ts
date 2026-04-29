@@ -1,0 +1,163 @@
+import {articleImages} from './assets';
+import type {ArticleItem} from '../types';
+
+export const articles: ArticleItem[] = [
+  {
+    id: 'symbol-of-strength',
+    title: 'The Symbol of Strength: Why the Buffalo Matters',
+    subtitles: ['Origins of the Symbol', 'Cultural Meaning', 'Modern Presence'],
+    category: 'Culture',
+    readTime: '7 min read',
+    date: 'Mar 15, 2026',
+    image: articleImages.symbolOfStrength,
+    content: [
+      'The buffalo, often referred to as the American bison, has long stood as a symbol of resilience, endurance, and quiet power. For centuries, it shaped the lives of Indigenous communities, providing food, tools, clothing materials, and a deep spiritual connection to the land. Its presence was never only physical; it carried meaning, memory, and responsibility.',
+      'As the United States expanded westward, the buffalo became intertwined with the narrative of the frontier. Vast herds once covered the plains, moving like a living landscape across the horizon. Their near disappearance marked a turning point in American history, while their survival today tells another story: recovery, respect, and the difficult work of restoration.',
+      'In modern culture, the buffalo appears in sports, art, public monuments, college mascots, city names, and conservation programs. Statues, logos, and stadium traditions continue to reflect strength, but the symbol is richer than a simple image. It reminds travelers of open land, migration, persistence, and the fragile bond between a place and the life it supports.',
+      'Following buffalo-themed routes turns that symbol into experience. A city sculpture, a prairie preserve, and a stadium may seem unrelated at first, yet each one shows a different way Americans continue to use the buffalo to speak about courage, identity, movement, and belonging.',
+    ],
+  },
+  {
+    id: 'trails-of-the-prairie',
+    title: 'Trails of the Prairie: Where Buffalo Once Moved',
+    subtitles: ['Endless Landscapes', 'Migration Paths', 'Today Routes'],
+    category: 'Road Trip',
+    readTime: '8 min read',
+    date: 'Feb 28, 2026',
+    image: articleImages.trailsOfThePrairie,
+    content: [
+      'Long before highways and cities, the plains were defined by movement, and buffalo were at the center of it. Herds followed grass, water, weather, and seasonal patterns. Their migration paths shaped the land itself, creating natural corridors that later influenced human travel, settlement, trade, and storytelling.',
+      'Today, many of these areas remain open and vast enough to feel the scale of the old landscape. Parks and preserves across the United States protect grasslands, wetlands, and rugged refuge areas where visitors can still observe buffalo in settings that resemble their original habitats. The experience is slower than typical sightseeing, and that is exactly the point.',
+      'Traveling through prairie landscapes is not about checking off stops quickly. It is about watching the horizon, reading wind in the grass, and noticing how small a vehicle can feel under a wide sky. The terrain may seem simple at first glance, but with time it reveals patterns, color, distance, and a quiet rhythm that defines the American interior.',
+      'A good buffalo route should leave room for pauses. Pullouts, short trails, scenic loops, and small museums add depth without crowding the journey. The best days are often the ones where the map gives structure but the landscape sets the pace.',
+    ],
+  },
+  {
+    id: 'wild-herds-to-city-icons',
+    title: 'From Wild Herds to City Icons',
+    subtitles: ['Urban Symbols', 'Sculptures & Statues', 'Meaning in Modern Space'],
+    category: 'Monuments',
+    readTime: '6 min read',
+    date: 'Feb 10, 2026',
+    image: articleImages.wildHerdsToCityIcons,
+    content: [
+      'In cities across the United States, buffalo and bulls have taken on a new form. They no longer move as herds across the horizon; instead, they stand in bronze, steel, and stone. These sculptures serve as reminders of history while adapting to modern public space.',
+      'A single statue can transform a street corner or plaza. It becomes a meeting point, a photo ritual, and a symbol of identity for the surrounding area. In financial districts, the bull often represents strength, momentum, and confidence. In parks and public squares, the buffalo connects city life back to nature and regional memory.',
+      'Urban icons bridge two worlds: the untamed past and the structured present. They allow travelers to experience a piece of buffalo symbolism without leaving the city, blending culture, art, finance, conservation, and local pride into a single stop.',
+      'The best way to visit these monuments is to look beyond the photo. Notice where the sculpture is placed, who gathers around it, what buildings surround it, and how the animal changes the feeling of the space. Public art works hardest when it shapes how people move through a place.',
+    ],
+  },
+  {
+    id: 'spirit-of-the-west',
+    title: 'The Spirit of the West',
+    subtitles: ['Rodeo Culture', 'Open Land', 'Living Traditions'],
+    category: 'Western',
+    readTime: '7 min read',
+    date: 'Jan 20, 2026',
+    image: articleImages.spiritOfTheWest,
+    content: [
+      'The western United States carries a distinct energy shaped by land, movement, animals, and tradition. Buffalo are part of this identity even in places where they are no longer physically present. Their image belongs to a larger language of open space, resilience, and frontier memory.',
+      'Rodeo arenas, ranch districts, stockyards, and small towns keep that language alive. These are places where history is not only displayed but performed. The relationship between people, animals, skill, and land is visible in daily routines, annual festivals, working barns, and packed evening arenas.',
+      'Traveling through western regions reveals a different pace. Wide roads, distant mountains, working landscapes, and long stretches between towns make the journey feel as important as the destination. The stops are valuable, but the space between them is what gives the route its character.',
+      'A good Western trail balances spectacle with context. See the rodeo, but also visit a museum. Walk the stockyards, but also read about the land. The result is a richer trip that treats Western culture as a living system instead of a costume.',
+    ],
+  },
+  {
+    id: 'preserving-the-giants',
+    title: 'Preserving the Giants',
+    subtitles: ['Conservation Efforts', 'National Parks', 'Future Generations'],
+    category: 'Wildlife',
+    readTime: '9 min read',
+    date: 'Jan 02, 2026',
+    image: articleImages.preservingTheGiants,
+    content: [
+      'The survival of the buffalo is one of the most significant conservation stories in North America. From near extinction to protected herds, the journey reflects loss, recovery, policy, science, and the work of many communities who refused to let the species disappear completely.',
+      'National parks, wildlife refuges, tribal lands, preserves, and managed ranges now play a crucial role in maintaining bison populations. These protected areas allow animals to move, graze, form social groups, and shape ecosystems within carefully managed boundaries. Conservation is not passive; it requires planning, monitoring, and long-term care.',
+      'For visitors, these places offer more than a chance to see wildlife. They provide insight into how balance can be restored after deep damage. Observing bison in protected landscapes is a reminder that preservation requires both effort and restraint.',
+      'Responsible travel matters here. Staying on roads, keeping distance, following ranger guidance, and resisting the urge to crowd animals helps protect both people and herds. The most respectful wildlife encounter is often the one where nothing dramatic happens because the animals remain undisturbed.',
+    ],
+  },
+  {
+    id: 'buffalo-in-motion',
+    title: 'Buffalo in Motion: Power and Presence',
+    subtitles: ['Physical Strength', 'Movement', 'Natural Rhythm'],
+    category: 'Wildlife',
+    readTime: '6 min read',
+    date: 'Dec 18, 2025',
+    image: articleImages.buffaloInMotion,
+    content: [
+      'There is a distinct energy in the way buffalo move. Slow, deliberate steps can shift into powerful motion almost instantly, creating a contrast that defines their presence. Even from a distance, the size and rhythm of a herd changes the feeling of the landscape.',
+      'Watching buffalo travel across open land is a rare experience. The ground seems to respond, and the air feels different. It is not only movement; it is momentum. That momentum explains why the animal has inspired sculpture, team identities, conservation campaigns, and travel routes.',
+      'The physical presence of buffalo has shaped countless interpretations in art and culture. Whether captured in bronze, photographed against snow, or seen crossing a road, the animal suggests controlled power. It does not need to announce itself loudly to be understood.',
+      'For travelers, patience is the key. A herd may graze quietly for a long time before anything changes. When it does, the shift feels earned, and the memory lasts longer than a rushed stop ever could.',
+    ],
+  },
+  {
+    id: 'landscapes-that-shape-identity',
+    title: 'Landscapes That Shape Identity',
+    subtitles: ['Nature and Culture', 'Regional Character', 'Travel Experience'],
+    category: 'Road Trip',
+    readTime: '8 min read',
+    date: 'Nov 30, 2025',
+    image: articleImages.landscapesThatShapeIdentity,
+    content: [
+      'Certain landscapes leave a lasting impression, shaping how regions are perceived and experienced. The plains, mountain foothills, river valleys, and open lands associated with buffalo are among them. These places influence not only scenery but also stories, symbols, architecture, and daily life.',
+      'The connection between land and identity appears in small details. It can be seen in museum exhibits, local signs, sports mascots, public art, ranch gates, visitor centers, and the way communities organize space around roads and views. Geography becomes culture when people live with it long enough.',
+      'Traveling through buffalo country is therefore more than sightseeing. It is a way to understand how land shapes imagination, and how imagination shapes the places people build. The same symbol can mean wilderness in one town, team pride in another, and conservation in a third.',
+      'This is why a good app route should mix monuments, parks, arenas, and campuses. Together they show the full spread of buffalo identity instead of reducing it to a single theme.',
+    ],
+  },
+  {
+    id: 'quiet-side-of-travel',
+    title: 'The Quiet Side of Travel',
+    subtitles: ['Silence', 'Distance', 'Reflection'],
+    category: 'Reflection',
+    readTime: '5 min read',
+    date: 'Nov 12, 2025',
+    image: articleImages.quietSideOfTravel,
+    content: [
+      'Not every destination is defined by noise or activity. Some places offer something different: space, distance, and quiet. Buffalo landscapes often fall into this category, especially preserves and prairie routes where the main attraction is the land itself.',
+      'Wide open areas with minimal human presence create an environment where time feels slower. This kind of travel encourages observation rather than constant action. It asks visitors to notice weather, texture, animal movement, road sound, and the shape of the horizon.',
+      'For many travelers, this becomes the most memorable part of the journey. The absence of distraction allows the surroundings to take full focus, creating a deeper connection with the place. It is not empty space; it is room to pay attention.',
+      'Quiet travel also makes saved places more personal. A favorite route might not be the most famous stop. It might be the overlook where the light changed, the empty road that felt endless, or the field where a distant herd appeared for only a minute.',
+    ],
+  },
+  {
+    id: 'modern-routes-ancient-meaning',
+    title: 'Modern Routes, Ancient Meaning',
+    subtitles: ['Road Trips', 'Historic Paths', 'New Perspectives'],
+    category: 'Road Trip',
+    readTime: '7 min read',
+    date: 'Oct 22, 2025',
+    image: articleImages.modernRoutesAncientMeaning,
+    content: [
+      'Today travel routes often follow paths shaped long before asphalt. Roads cross plains, valleys, mountain passes, river corridors, and grasslands that once guided herds, hunters, traders, and migrating communities. A modern drive can carry layers of history even when the road looks ordinary.',
+      'This overlap between past and present adds depth to buffalo travel. A highway stop near a preserve, a museum beside a stockyard, or a monument in a financial district can all point back to older ideas of movement, power, and adaptation.',
+      'Understanding these connections changes the experience. It turns movement into exploration, where each mile holds more than distance. Even short routes become richer when travelers know what shaped the ground under the road.',
+      'The best modern buffalo routes are flexible. They combine mapped pins with open-ended curiosity, giving travelers enough structure to move confidently and enough freedom to follow the horizon when something unexpected appears.',
+    ],
+  },
+  {
+    id: 'following-the-horizon',
+    title: 'Following the Horizon',
+    subtitles: ['Exploration', 'Direction', 'Endless Space'],
+    category: 'Travel',
+    readTime: '6 min read',
+    date: 'Oct 03, 2025',
+    image: articleImages.followingTheHorizon,
+    content: [
+      'There is something unique about traveling toward a horizon that never seems to get closer. It creates a sense of openness and possibility, especially in buffalo landscapes where visual boundaries can feel far away.',
+      'The lack of tight edges allows the mind to wander, making the journey feel larger than the destination. A road may be simple, but the experience can feel expansive because distance changes how travelers think, listen, and look.',
+      'For road trip planning, this means leaving space in the schedule. The most satisfying routes are not always packed with stops. Sometimes the long drive, the quiet view, and the decision to keep moving become the center of the story.',
+      'Following the horizon is an invitation to continue with curiosity rather than urgency. Step by step, mile by mile, the route becomes a way of paying attention to the land and to the symbols that still move through it.',
+    ],
+  },
+];
+
+export const articleById = articles.reduce<Record<string, ArticleItem>>(
+  (acc, article) => {
+    acc[article.id] = article;
+    return acc;
+  },
+  {},
+);

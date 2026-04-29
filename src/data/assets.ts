@@ -1,0 +1,46 @@
+export const appImages = {
+  splashLoader: require('../assets/images/splash-loader.png'),
+  westernValley: require('../assets/images/western-valley-bg.png'),
+  logoHorns: require('../assets/images/logo-horns.png'),
+  habitatMap: require('../assets/images/habitat-map.png'),
+  onboardingBisonHost: require('../assets/images/onboarding-bison-host.png'),
+  onboardingTrailRanger: require('../assets/images/onboarding-trail-ranger.png'),
+  onboardingScout: require('../assets/images/onboarding-scout.png'),
+  onboardingChargingBison: require('../assets/images/onboarding-charging-bison.png'),
+};
+
+export const locationImages = {
+  chargingBullNewYork: require('../assets/images/locations/charging-bull-new-york.png'),
+  bullWallStreetReplicaDallas: require('../assets/images/locations/bull-wall-street-replica-dallas.png'),
+  bisonSculptureRapidCity: require('../assets/images/locations/bison-sculpture-rapid-city.png'),
+  buffaloStatueOklahomaCity: require('../assets/images/locations/buffalo-statue-oklahoma-city.png'),
+  bisonMonumentDenver: require('../assets/images/locations/bison-monument-denver.png'),
+  fortWorthStockyardsTexas: require('../assets/images/locations/fort-worth-stockyards-texas.png'),
+  cheyenneFrontierDaysArenaWyoming: require('../assets/images/locations/cheyenne-frontier-days-arena-wyoming.png'),
+  pendletonRoundUpGroundsOregon: require('../assets/images/locations/pendleton-round-up-grounds-oregon.png'),
+  codyNiteRodeoWyoming: require('../assets/images/locations/cody-nite-rodeo-wyoming.png'),
+  buffaloBillCenterAreaCody: require('../assets/images/locations/buffalo-bill-center-area-cody.png'),
+  custerStateParkSouthDakota: require('../assets/images/locations/custer-state-park-south-dakota.png'),
+  antelopeIslandStateParkUtah: require('../assets/images/locations/antelope-island-state-park-utah.png'),
+  wichitaMountainsWildlifeRefugeOklahoma: require('../assets/images/locations/wichita-mountains-wildlife-refuge-oklahoma.png'),
+  nationalBisonRangeMontana: require('../assets/images/locations/national-bison-range-montana.png'),
+  tallgrassPrairiePreserveOklahoma: require('../assets/images/locations/tallgrass-prairie-preserve-oklahoma.png'),
+  highmarkStadiumBuffalo: require('../assets/images/locations/highmark-stadium-buffalo.png'),
+  folsomFieldBoulder: require('../assets/images/locations/folsom-field-boulder.png'),
+  ralphWilsonParkBuffalo: require('../assets/images/locations/ralph-wilson-park-buffalo.png'),
+  universityOfColoradoCampusBoulder: require('../assets/images/locations/university-of-colorado-campus-boulder.png'),
+  buffaloStateUniversityBuffalo: require('../assets/images/locations/buffalo-state-university-buffalo.png'),
+};
+
+export const articleImages = {
+  symbolOfStrength: require('../assets/images/articles/symbol-of-strength.png'),
+  trailsOfThePrairie: require('../assets/images/articles/trails-of-the-prairie.png'),
+  wildHerdsToCityIcons: require('../assets/images/articles/wild-herds-to-city-icons.png'),
+  spiritOfTheWest: require('../assets/images/articles/spirit-of-the-west.png'),
+  preservingTheGiants: require('../assets/images/articles/preserving-the-giants.png'),
+  buffaloInMotion: require('../assets/images/articles/buffalo-in-motion.png'),
+  landscapesThatShapeIdentity: require('../assets/images/articles/landscapes-that-shape-identity.png'),
+  quietSideOfTravel: require('../assets/images/articles/quiet-side-of-travel.png'),
+  modernRoutesAncientMeaning: require('../assets/images/articles/modern-routes-ancient-meaning.png'),
+  followingTheHorizon: require('../assets/images/articles/following-the-horizon.png'),
+};
