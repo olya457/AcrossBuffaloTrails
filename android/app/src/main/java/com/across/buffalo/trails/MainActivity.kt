@@ -1,4 +1,4 @@
-package com.acrossbuffalotrails
+package com.across.buffalo.trails
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

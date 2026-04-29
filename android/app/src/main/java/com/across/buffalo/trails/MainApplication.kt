@@ -1,4 +1,4 @@
-package com.acrossbuffalotrails
+package com.across.buffalo.trails
 
 import android.app.Application
 import com.facebook.react.PackageList
