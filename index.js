@@ -12,3 +12,4 @@ function Root() {
 }
 
 AppRegistry.registerComponent(appName, () => Root);
+AppRegistry.registerComponent('AcrossBuffaloTrails', () => Root);

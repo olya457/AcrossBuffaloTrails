@@ -132,7 +132,7 @@ const styles = StyleSheet.create({
   },
   featuredBadge: {
     position: 'absolute',
-    top: 88,
+    top: 16,
     alignSelf: 'center',
     backgroundColor: colors.accent,
     borderRadius: 9,
@@ -140,7 +140,7 @@ const styles = StyleSheet.create({
     paddingVertical: 5,
   },
   featuredBadgeCompact: {
-    top: 72,
+    top: 14,
   },
   featuredBadgeText: {
     color: colors.text,
