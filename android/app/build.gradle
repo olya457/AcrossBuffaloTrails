@@ -77,9 +77,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.across.buffalo.trails"
+    namespace "com.openplainsatlas"
     defaultConfig {
-        applicationId "com.across.buffalo.trails"
+        applicationId "com.openplainsatlas"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

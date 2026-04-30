@@ -1,4 +1,4 @@
-package com.across.buffalo.trails
+package com.openplainsatlas
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

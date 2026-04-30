@@ -1,4 +1,4 @@
-package com.across.buffalo.trails
+package com.openplainsatlas
 
 import android.app.Application
 import com.facebook.react.PackageList
